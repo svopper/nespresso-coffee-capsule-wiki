@@ -1,9 +1,13 @@
 <template>
-   <div>
+   <div class="menu">
       <div class="card" v-for="capsule in capsules" :key="capsule.id">
-         <router-link :to="'/capsules/' + capsule.id">
+         <router-link class="name" :to="'/capsules/' + capsule.id">
             {{ capsule.name }}
          </router-link>
+         <span class="sub_title">{{ capsule.short_description }}</span>
+         <div style="width: 64px; height: 64px;">
+            <img class="thumbnail" :src="'https://kols.dk/img/nespresso_assets/' + capsule.image_path.thumbnail" alt="dd">
+         </div>
       </div>
       
    </div>
@@ -23,5 +27,22 @@
 .card {
    margin: 20px;
    padding: 20px;
+}
+
+.thumbnail {
+   width: inherit;
+}
+
+.name {
+   font-size: 30px;
+}
+
+.menu {
+   max-height: 80vh;
+   overflow: scroll;
+}
+
+.sub_title {
+   margin-bottom: 20px;
 }
 </style>

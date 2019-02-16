@@ -9,10 +9,14 @@
          }
       ],
       "description": "A taste of history as coffee from the ancient Ethiopian region of Harrar mixes with Indian Arabica to create a cup rich with the exotic perfume of the East. Wild and floral notes combine with a roasted character in this potent and complex coffee.",
-      "intesity": 7,
+      "intensity": 7,
       "name": "Caffé Venezia",
-      "short-description": "Floral and fruity",
-      "id": 1
+      "short_description": "Floral and fruity",
+      "id": 1,
+      "image_path":{
+         "thumbnail": "venezia-2.png",
+         "main": "venezia-1.png"
+      }
    },
    {
       "cups": [{
@@ -25,10 +29,14 @@
          }
       ],
       "description": "Master Origin Colombia with Late Harvest uses only high-grown, washed processed Colombian Arabica. Can you taste the lively acidity and the burst of winey red fruit aromas? That comes from those coffee farmers who dared to wait longer before harvesting their crop.",
-      "intesity": 6,
+      "intensity": 6,
       "name": "Colombia",
-      "short-description": "Fruity and vibrant",
-      "id": 2
+      "short_description": "Fruity and vibrant",
+      "id": 2,
+      "image_path":{
+         "thumbnail": "colombia-2.png",
+         "main": "colombia-1.png"
+      }
    },
    {
       "cups": [{
@@ -36,10 +44,14 @@
          "type": "Lungo"
       }],
       "description": "A complex yet balanced blend, Vivalto Lungo Decaffeinato has the same rich character as the originalVivalto LungoGrand Cru: roasted, lightly woody with sweet cereal and subtle floral notes. It is a pure Arabica blend from several origins including South America and East Africa. The aromatic profile of these coffees is carefully preserved during the decaffeination process, which respects the coffee beans true nature, allowing us to maintain the strength and richness of its aromas.",
-      "intesity": 4,
+      "intensity": 4,
       "name": "Vivalto Lungo Decaffeinato",
-      "short-description": "Complex and balanced",
-      "id": 3
+      "short_description": "Complex and balanced",
+      "id": 3,
+      "image_path":{
+         "thumbnail": "vivalto-decaf-2.png",
+         "main": "vivalto-decaf-1.png"
+      }
    },
    {
       "cups": [{
@@ -47,10 +59,14 @@
          "type": "Lungo"
       }],
       "description": "As in the age of sailing ships, Indian Malabar Arabica beans are exposed to monsoon winds after harvest to reveal a distinguished aromatic profile. We blend these with Latin American Arabica beans to create a Lungo with a truly intense character. This full-bodied Lungo, rich in aroma, expresses itself in beautiful sweet cereal and malty toasted notes, and it offers a pleasant bitterness with an exquisite fullness on the palate thanks to its round and smooth texture.",
-      "intesity": 8,
+      "intensity": 8,
       "name": "Fortissio Lungo",
-      "short-description": "Rich and intense",
-      "id": 4
+      "short_description": "Rich and intense",
+      "id": 4,
+      "image_path":{
+         "thumbnail": "fortissio-2.png",
+         "main": "fortissio-1.png"
+      }
    },
    {
       "cups": [{
@@ -58,10 +74,14 @@
          "type": "Lungo"
       }],
       "description": "Envivo Lungo was specially designed for the morning by Nespresso Coffee Experts. It is a long-cup that stimulates the senses through its high intensity and generous character. This dark roasted coffee is a blend of a distinctive Arabica from India with a Robusta from Mexico. In cup, it reveals a potent character and a full body, roasted notes and rich scents reminiscent of aromatic woods and gingerbread.",
-      "intesity": 9,
+      "intensity": 9,
       "name": "Envivo Lungo",
-      "short-description": "Potent and caramelized",
-      "id": 5
+      "short_description": "Potent and caramelized",
+      "id": 5,
+      "image_path":{
+         "thumbnail": "envivo-2.png",
+         "main": "envivo-1.png"
+      }
    },
    {
       "cups": [{
@@ -69,10 +89,14 @@
          "type": "Lungo"
       }],
       "description": "Pure Arabica from South America, Linizio Lungo is a well-rounded blend made of Brazilian and Colombian coffee. The split-roasting gives a cereal, malty note typical for the Bourbon variety, while maintaining its mild and smooth character.",
-      "intesity": 4,
+      "intensity": 4,
       "name": "Linizio Lungo",
-      "short-description": "Round and smooth",
-      "id": 6
+      "short_description": "Round and smooth",
+      "id": 6,
+      "image_path":{
+         "thumbnail": "linizio-2.png",
+         "main": "linizio-1.png"
+      }
    },
    {
       "cups": [{
@@ -85,10 +109,14 @@
          }
       ],
       "description": "Arpeggio takes its distinctive character and full body from a blend of Central and South American Arabicas. The long roasting allows each aspect to develop into an intense bouquet, combining cocoa and roasted notes.",
-      "intesity": 9,
+      "intensity": 9,
       "name": "Arpeggio",
-      "short-description": "Intense and creamy",
-      "id": 7
+      "short_description": "Intense and creamy",
+      "id": 7,
+      "image_path":{
+         "thumbnail": "arpeggio-2.png",
+         "main": "Arpeggio-1.png"
+      }
    },
    {
       "cups": [{
@@ -96,9 +124,13 @@
          "type": "Espresso"
       }],
       "description": "A pure blend of pure Arabics from South and Central America, Livanto is a well-balanced espresso characterised by a roasted caramelised note.",
-      "intesity": 5,
+      "intensity": 5,
       "name": "Livanto",
-      "short-description": "Round and balanced",
-      "id": 8
+      "short_description": "Round and balanced",
+      "id": 8,
+      "image_path":{
+         "thumbnail": "livanto-2.png",
+         "main": "livanto-1.png"
+      }
    }
 ]
