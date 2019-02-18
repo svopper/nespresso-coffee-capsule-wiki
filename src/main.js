@@ -8,7 +8,8 @@ import { store } from './store'
 Vue.use(VueRouter)
 
 const routes = [
-  {path: '/capsules/:capsuleId', component: Content}
+  {path: '/capsules/:capsuleId', component: Content},
+  {path: '*', redirect: '/capsules/1'}
 ]
 
 const router = new VueRouter({

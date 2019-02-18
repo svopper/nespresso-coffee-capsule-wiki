@@ -6,7 +6,7 @@
          </router-link>
          <span class="sub_title">{{ capsule.short_description }}</span>
          <div style="width: 64px; height: 64px;">
-            <img class="thumbnail" :src="'https://kols.dk/img/nespresso_assets/' + capsule.image_path.thumbnail" alt="dd">
+            <img class="thumbnail" :src="'https://kols.dk/img/nespresso_assets/' + capsule.image_path.thumbnail" alt="">
          </div>
       </div>
       
